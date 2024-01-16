@@ -36,6 +36,21 @@ main {
 
 .weather-app-temp {
   display: flex;
+  margin-left: 15px;
+}
+
+.weather-app-temp-icon {
+  font-size: 46px;
+  margin-top: 8px;
+}
+
+.weather-app-temp-value {
+  font-size: 90px;
+}
+
+.weather-app-temp-unit {
+  font-size: 25px;
+  margin-top: 16px;
 }
 
 footer {
