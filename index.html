@@ -15,22 +15,34 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city" required />
-          <input type="submit" value="Let's Go!" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city"
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Let's Go!" class="search-form-button" />
         </form>
       </header>
 
       <main>
-        <div>
-          <h1>Dublin</h1>
-          <p>
-            Tuesday 18:25, sunshine galore
-            <br />
-            Humidity: 25%, Wind: 1.14km/h
-          </p>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city">Dublin</h1>
+            <p class="weather-app-details">
+              Tuesday 18:25, sunshine galore
+              <br />
+              Humidity: <strong>22%,</strong> Wind: <strong>1.14km/h</strong>
+            </p>
+          </div>
+
+          <div class="weather-app-temp">
+            <div class="weather-app-temp-icon">☀</div>
+            <div class="weather-app-temp-value">8</div>
+            <div class="weather-app-temp-unit">°C</div>
+          </div>
         </div>
-        <div>☀ 8°C</div>
       </main>
 
       <footer>
