@@ -1,0 +1,13 @@
+body {
+  background-color: aliceblue;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.weather-app {
+  background-color: wheat;
+  max-width: 750px;
+  margin: 50px auto;
+  padding: 35px;
+  box-shadow: 0 35px 55px rgba(65, 50, 100, 0);
+  border-radius: 10px;
+}
