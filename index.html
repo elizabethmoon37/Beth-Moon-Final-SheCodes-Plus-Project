@@ -10,16 +10,18 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>Beth Moon Explains the Weather</title>
   </head>
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city"
             required
+            id="search-form-input"
             class="search-form-input"
           />
           <input type="submit" value="Let's Go!" class="search-form-button" />
@@ -29,7 +31,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city">Dublin</h1>
+            <h1 class="weather-app-city" id="city">Dublin</h1>
             <p class="weather-app-details">
               Tuesday 18:25, sunshine galore
               <br />
@@ -62,5 +64,6 @@
         >
       </footer>
     </div>
+    <script src="src/script.js"></script>
   </body>
 </html>

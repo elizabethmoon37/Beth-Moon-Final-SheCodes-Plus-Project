@@ -75,13 +75,13 @@ a {
 }
 
 .search-form-input {
-  background-color: rgb(17, 71, 25);
+  background-color: lightgray;
   border: none;
   border-radius: 8px;
   width: 70%;
   padding: 15px 20px;
   font-size: 18px;
-  color: white;
+  color: black;
 }
 
 .search-form-button {
