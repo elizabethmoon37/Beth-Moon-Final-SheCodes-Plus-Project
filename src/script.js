@@ -5,9 +5,9 @@ function handleSearchSubmit(event) {
 
   function searchCity(city) {
     let apiKey = "6975040fc193feta4f47d8af4o55baa9";
-    let apiUrl =
-      "https://api.shecodes.io/weather/v1/current?query={query}&key={key}";
+    let apiUrl = `"https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric"`;
   }
+  console.log(apiUrl);
 
   cityElement.innerHTML = searchInput.value;
   searchCity(searchinput.value);
