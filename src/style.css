@@ -37,11 +37,12 @@ main {
 .weather-app-temp {
   display: flex;
   margin-left: 15px;
+  line-height: 88px;
 }
 
 .weather-app-temp-icon {
   font-size: 46px;
-  margin-top: 8px;
+  height: 88px;
 }
 
 .weather-app-temp-value {
