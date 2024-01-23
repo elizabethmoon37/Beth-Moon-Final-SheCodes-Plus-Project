@@ -1,11 +1,16 @@
 body {
   font-family: "Josefin Sans", sans-serif;
-  background-color: rgb(17, 71, 25);
+
+  background: linear-gradient(
+    75.7deg,
+    rgb(34, 126, 34) 3.8%,
+    rgb(99, 162, 17) 87.1%
+  );
   text-align: center;
 }
 
 header {
-  border-bottom: 1px solid rgb(86, 145, 86);
+  border-bottom: 1px solid rgb(88, 196, 88);
   padding: 0 0 30px 0;
 }
 
