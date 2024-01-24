@@ -24,7 +24,7 @@ main {
 
 .weather-app-city {
   margin: 0;
-  font-size: 55px;
+  font-size: 70px;
   line-height: 66px;
   color: white;
 }
@@ -34,6 +34,7 @@ main {
   line-height: 28px;
   color: white;
   font-weight: 500;
+  margin-bottom: 40px;
 }
 .weather-app-details strong {
   color: wheat;
@@ -46,17 +47,17 @@ main {
 }
 
 .weather-forecast-icon {
-  width: 100%;
+  width: 30%;
   display: block;
 }
 
 .weather-app-temp-value {
-  font-size: 80px;
+  font-size: 85px;
 }
 
 .weather-app-temp-unit {
-  font-size: 25px;
-  margin-bottom: 70px;
+  font-size: 20px;
+  margin-bottom: 25px;
 }
 
 footer {
@@ -69,6 +70,10 @@ footer {
 
 a {
   color: rgb(17, 71, 25);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 .weather-app {
@@ -90,6 +95,10 @@ a {
   color: black;
 }
 
+.search-form-input:hover {
+  cursor: pointer;
+}
+
 .search-form-button {
   background-color: rgb(86, 145, 86);
   padding: 15px 30px;
@@ -97,6 +106,12 @@ a {
   border-color: rgb(17, 71, 25);
   margin-left: 6px;
   font-size: 18px;
+  transition: 300ms ease-in-out;
+}
+
+.search-form-button:hover {
+  background-color: rgb(120, 185, 120);
+  cursor: pointer;
 }
 
 .weather-forecast {
